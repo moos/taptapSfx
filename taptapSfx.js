@@ -9,7 +9,7 @@
 ;(function(){
 	
 	var thisScript = "taptapSfx.js",
-		path = getScriptPath(thisScript),
+		path = getScriptPath(thisScript) + 'audio/',
 		audio = {},
 		options = {},
 		mute = false,
